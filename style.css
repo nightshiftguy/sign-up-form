@@ -73,7 +73,7 @@ img{
     padding: 150px var(--padding-right-in-main) 50px var(--padding-left-in-main);
 }
 
-p{
+.about-service > p{
     color:black;
     font-size:1.7rem;
     font-weight:500;
