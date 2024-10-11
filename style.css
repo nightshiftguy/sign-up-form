@@ -1,5 +1,5 @@
 :root{
-    --second-bg:#dbdbdb;
+    --second-bg:#f3f3f3;
     --input-border:#E5E7EB;
     --submit:#596D48;
     --padding-left-in-main:5%;
@@ -9,6 +9,7 @@
 body{
     margin:0;
     padding:0;
+    font-size: 1.2rem;
     display:flex;
     height:100vh;
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -84,6 +85,7 @@ img{
     box-shadow: 0 7px 7px rgb(197, 197, 197);
     padding-left:var(--padding-left-in-main);
     padding-right: var(--padding-right-in-main);
+    z-index: 1;
 }
 
 .inputs-container{
@@ -142,6 +144,7 @@ label{
 
 .create-account{
     padding: 2rem var(--padding-right-in-main) 0 var(--padding-left-in-main);
+    background-color: var(--second-bg);
 }
 
 input[type="submit"]{
@@ -153,11 +156,17 @@ input[type="submit"]{
     background-color: var(--submit);
     border:none;
     border-radius: 8px;
+    margin-bottom: 3rem;
 }
 
 input[type="submit"]:hover{
     cursor: pointer;
     background-color: #445337;
+}
+
+.log-in{
+    font-weight: 900;
+    color:var(--submit);
 }
 
 @font-face{
