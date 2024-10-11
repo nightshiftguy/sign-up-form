@@ -76,10 +76,11 @@ p{
     font-size:1.7rem;
     font-weight:500;
     margin-bottom:20px;
-
-
 }
 
+.registration-form{
+    box-shadow: 0 7px 7px rgb(197, 197, 197);
+}
 
 @font-face{
     font-family:norse-bold;
