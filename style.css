@@ -117,15 +117,6 @@ input[type="tel"]:user-invalid{
     border-color:red;
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="tel"]:focus,
-input[type="password"]:focus{
-    outline:none;
-    border-color: blue;
-    box-shadow: 5px 5px 5px var(--input-border);
-}
-
 input[type="password"]:invalid{
     border-color: red;
 }
@@ -133,6 +124,15 @@ input[type="password"]:invalid{
 input[type="password"]:invalid+span:after{
     color:red;
     content:"*Passwords do not match";
+
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus{
+    outline:none;
+    border-color: blue;
+    box-shadow: 5px 5px 5px var(--input-border);
 }
 
 label{
