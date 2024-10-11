@@ -5,8 +5,29 @@ body{
 
 .side-hero{
     width:30vw;
-    height: 100vh;
+    height:100vh;
     background-image: url(/img/side-image.jpg);
     background-repeat: no-repeat;
     background-size: auto 100%;
+    overflow: hidden;
+}
+
+.logo-container{
+    height:8rem;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top:30vh;
+    padding:1rem;
+}
+
+img{
+    height:100%;
+    display:inline;
+}
+
+.logo-text{
+    display:inline;
 }
