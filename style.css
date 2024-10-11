@@ -3,6 +3,7 @@
     --input-border:#E5E7EB;
     --submit:#596D48;
     --padding-left-in-main:5%;
+    --padding-right-in-main:30%;
 }
 
 body{
@@ -69,7 +70,7 @@ img{
 .about-service{
     box-sizing: border-box;
     background-color: var(--second-bg);
-    padding: 150px 30% 50px var(--padding-left-in-main);
+    padding: 150px var(--padding-right-in-main) 50px var(--padding-left-in-main);
 }
 
 p{
@@ -82,7 +83,7 @@ p{
 .registration-form{
     box-shadow: 0 7px 7px rgb(197, 197, 197);
     padding-left:var(--padding-left-in-main);
-    padding-right: 30%;
+    padding-right: var(--padding-right-in-main);
 }
 
 .inputs-container{
@@ -139,7 +140,9 @@ label{
     display:block;
 }
 
-
+.create-account{
+    padding: 2rem var(--padding-right-in-main) 0 var(--padding-left-in-main);
+}
 
 @font-face{
     font-family:norse-bold;
