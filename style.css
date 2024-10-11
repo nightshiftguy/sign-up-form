@@ -82,6 +82,25 @@ p{
 .registration-form{
     box-shadow: 0 7px 7px rgb(197, 197, 197);
     padding-left:var(--padding-left-in-main);
+    padding-right: 30%;
+}
+
+.inputs-container{
+    height: 70%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.inputs-container > div{
+    flex: 1 0 50%;
+}
+
+input{
+    width: 75%;
+}
+
+label{
+    display:block;
 }
 
 @font-face{
