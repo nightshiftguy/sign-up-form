@@ -97,10 +97,10 @@ p{
 
 input{
     width: 80%;
-    height: 3rem;
+    height: 2.8rem;
     padding: 0 0.5rem;
     margin: 0;
-    border:#E5E7EB 1px solid;
+    border:var(--input-border) 1px solid;
     border-radius: 0.2rem;
     font-family: inherit;
     font-weight: 300;
@@ -115,6 +115,16 @@ input:user-invalid{
 input:focus{
     outline:none;
     border-color: blue;
+    box-shadow: 5px 5px 5px var(--input-border);
+}
+
+input[type="password"]:invalid{
+    border-color: red;
+}
+
+input[type="password"]:invalid+span:after{
+    color:red;
+    content:"*Passwords do not match";
 }
 
 label{
