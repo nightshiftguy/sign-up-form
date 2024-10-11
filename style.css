@@ -30,4 +30,11 @@ img{
 
 .logo-text{
     display:inline;
+    font-family:norse-bold;
+    font-size:120px;
+}
+
+@font-face{
+    font-family:norse-bold;
+    src:url(/fonts/Norse-Bold.otf);
 }
