@@ -3,6 +3,12 @@ body{
     padding:0;
 }
 
+:root{
+    --second-bg:#dbdbdb;
+    --input-border:#E5E7EB;
+    --submit:#596D48;
+}
+
 .side-hero{
     width:30vw;
     height:100vh;
