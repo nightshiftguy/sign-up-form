@@ -144,6 +144,22 @@ label{
     padding: 2rem var(--padding-right-in-main) 0 var(--padding-left-in-main);
 }
 
+input[type="submit"]{
+    color:white;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 1rem 5rem;
+    background-color: var(--submit);
+    border:none;
+    border-radius: 8px;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #445337;
+}
+
 @font-face{
     font-family:norse-bold;
     src:url(/fonts/Norse-Bold.otf);
