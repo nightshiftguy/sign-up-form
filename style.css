@@ -21,7 +21,7 @@ p{
 
 .side-hero{
     flex:1;
-    background-image: url(/img/side-image.jpg);
+    background-image: url(./img/side-image.jpg);
     background-repeat: no-repeat;
     background-size: auto 100%;
     color:white;
@@ -171,5 +171,5 @@ input[type="submit"]:hover{
 
 @font-face{
     font-family:norse-bold;
-    src:url(/fonts/Norse-Bold.otf);
+    src:url(./fonts/Norse-Bold.otf);
 }
